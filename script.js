@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
       )
     ) {
       pauseGame();
-      scoreboard.innerHTML = `${score}<br />Game Over! `;
+      scoreboard.innerHTML = `${score}<br />Game Over!<br />`;
       buttonPause.setAttribute("hidden", true);
       buttonReset.innerHTML = "Play again";
       buttonReset.style.width = "160px";
