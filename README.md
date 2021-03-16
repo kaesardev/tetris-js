@@ -50,7 +50,7 @@ O projeto trata-se de uma aplicação web, não requer instalação, e está hos
 
 ---
 
-Para iniciar o jogo utilize o botão play, e utilizando as setas direcionais (teclado ou botões na tela) mover os blocos e/ou rotaciona-las de modo a completar fileiras na horizontal para que os blocos sejam destruidos e ganhar pontos. A cada segundo que passa os blocos vão caindo, e conforme empilha as peças o jogador fica sem espaço até que não seja possível mais empilhar e o jogo termine. A cem pontos o jogador aumenta de nível, ficando mais rápido e mais desafiador!
+Para iniciar o jogo utilize o botão play, e utilizando as setas direcionais (teclado ou botões na tela) mover os blocos e/ou rotaciona-las de modo a completar fileiras na horizontal para que os blocos sejam destruidos e ganhar pontos. A cada segundo que passa os blocos vão caindo, e conforme empilha as peças o jogador fica sem espaço até que não seja possível mais empilhar e o jogo termine. A cada cem pontos o jogador aumenta de nível, ficando mais rápido e mais desafiador!
 
 ## Agradecimento
 
