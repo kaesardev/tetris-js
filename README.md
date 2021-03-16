@@ -42,10 +42,7 @@ Este projeto de caráter acadêmico nasceu de um Hackenge realizado pela discipl
 
 O projeto trata-se de uma aplicação web, não requer instalação, e está hospedado através do serviço de hospedagem do Github Pages. Para jogar acesse o link:
 
-<h2 align="center"><a href="https://kaesarz.github.io/tetris-js/">Jogar Versão do Júlio</a></h2>
-<br>
-<h2 align="center"><a href="https://joaomarkis.github.io/tetris-js/">Jogar Versão do João</a><br><a href="https://github.com/joaomarkis/tetris-js">Repositório</a></h2>
-<h3 align="center"></h3>
+<h2 align="center"><a href="https://kaesarz.github.io/tetris-js/">Jogar</a></h2>
 
 ## Como usar
 
