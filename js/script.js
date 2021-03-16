@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   var sndBackground = new Audio("audio/background.mp3");
   sndBackground.volume = 0.1;
   sndBackground.loop = true;
+  console.log(window.location.origin);
 
   var sndScore = new Audio("audio/score.mp3");
   sndScore.volume = 0.8;
