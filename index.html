@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js" charset="UTF-8"></script>
-    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" charset="UTF-8"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
@@ -17,8 +17,10 @@
     <div class="wrapper">
       <div class="panel">
         <div>
-          <h1>Tetris</h1>
+          <h1 id="title">Tetris</h1>
+          <h3>Max Score: <span id="max-score">0</span></h3>
           <h3>Score: <span id="score">0</span></h3>
+          <h3>Level: <span id="level">1</span></h3>
         </div>
         <h3>Next:</h3>
         <div class="wrapper">
@@ -43,7 +45,7 @@
         </div>
         <div class="controller">
           <button id="btn-reset">Play</button>
-          <div class="btn-fake"></div>
+          <button id="btn-mute" hidden>Mute</button>
           <button id="btn-pause" hidden>Pause</button>
           <div class="btn-fake"></div>
           <button id="btn-up" hidden>↑</button>
