@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nextForm = Math.floor(Math.random() * tetrominoes.length);
     rotation = Math.floor(Math.random() * 4);
     current = tetrominoes[form][rotation];
+    draw();
   }
 
   // Draw the tetromino
@@ -105,21 +106,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Moves
   function moveLeft() {
-    undraw();
     const isLeftEdge = current.some(
       (index) => (position + index) % width === 0
     );
     const colision = current.some((index) =>
       squares[position - 1 + index].classList.contains("taken")
     );
-    if (!isLeftEdge && !colision) position -= 1;
-    draw();
+    if (!isLeftEdge && !colision) {
+      undraw();
+      position -= 1;
+      draw();
+    }
   }
 
   function rotate() {
     undraw();
     rotation = rotation + 1 < current.length ? rotation + 1 : 0;
     current = tetrominoes[form][rotation];
+    draw();
 
     const isLeftEdge = current.some(
       (index) => (position + index) % width === 0
@@ -131,33 +135,36 @@ document.addEventListener("DOMContentLoaded", () => {
       squares[position + 1 + index].classList.contains("taken")
     );
     if ((isLeftEdge && isRightEdge) || colision) {
+      undraw();
       rotation = rotation - 1 > -1 ? rotation - 1 : current.length - 1;
       current = tetrominoes[form][rotation];
+      draw();
     }
-    draw();
   }
 
   function moveRight() {
-    undraw();
     const isRightEdge = current.some(
       (index) => (position + index) % width === width - 1
     );
     const colision = current.some((index) =>
       squares[position + 1 + index].classList.contains("taken")
     );
-    if (!isRightEdge && !colision) position += 1;
-    draw();
+    if (!isRightEdge && !colision) {
+      undraw();
+      position += 1;
+      draw();
+    }
   }
 
   function moveDown() {
-    undraw();
     const colision = current.some((index) =>
       squares[position + index + width].classList.contains("taken")
     );
     if (!colision) {
+      undraw();
       position += width;
+      draw();
     }
-    draw();
     freeze();
   }
 
@@ -171,7 +178,6 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       // Create a new tetromino
       genTetromino();
-      draw();
       previewShape();
       // Verify score and gameover
       addScore();
@@ -265,7 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
       )
     ) {
       pauseGame();
-      scoreboard.innerHTML = `${score}<br />Game Over!<br />`;
+      scoreboard.innerHTML = `${score}<br />Game Over!`;
       buttonPause.setAttribute("hidden", true);
       buttonReset.innerHTML = "Play again";
       buttonReset.style.width = "160px";
