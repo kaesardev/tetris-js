@@ -13,19 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonMute = document.querySelector("#btn-mute");
   const h1Title = document.querySelector("#title");
 
-  var sndBackground = new Audio("tetris-js/audio/background.mp3");
+  var sndBackground = new Audio("audio/background.mp3");
   sndBackground.volume = 0.1;
   sndBackground.loop = true;
 
-  var sndScore = new Audio("tetris-js/audio/score.mp3");
+  var sndScore = new Audio("audio/score.mp3");
   sndScore.volume = 0.8;
   sndScore.loop = false;
 
-  var sndMove = new Audio("tetris-js/audio/move.wav");
+  var sndMove = new Audio("audio/move.wav");
   sndMove.volume = 0.2;
   sndMove.loop = false;
 
-  var sndGameOver = new Audio("tetris-js/audio/gameover.wav");
+  var sndGameOver = new Audio("audio/gameover.wav");
   sndGameOver.volume = 0.5;
   sndGameOver.loop = false;
 
