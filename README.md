@@ -64,38 +64,43 @@ Nosso agradecimento especial vai para o Prof. Dr. [Vinicius Cardoso Garcia](http
 
 <div style="display: flex; flex: 1; flex-direction: row; justify-content: space-between;">
 <a href="https://github.com/KaesarZ">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/35826588?s=460&u=1088d3ef2ce85238b647f51a1366a553b47846f7&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Júlio César</b></sub>
 </a>
 
 <a href="https://github.com/joaomarkis">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44407300?s=460&u=65567ccfa9903107c4a6fb441989ecd3da224374&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>João Marques</b></sub>
+ <sub align="center"><b>João Marques</b></sub>
 </a>
 
 <a href="https://github.com/bihellzin">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49006461?s=460&u=64e9102106d36ba82b93113e5612a9a8996dbd3a&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Gabriel</b></sub>
+ <sub align="center"><b>Gabriel</b></sub>
 </a>
 
 <a href="https://github.com/guilhermeguerrac">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45825846?s=460&u=e633ecf1f6bb591eb01726b4642a74fe4ed6b1a3&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Guilherme</b></sub>
+ <sub align="center"><b>Guilherme</b></sub>
 </a>
 
 <a href="https://github.com/renabouj">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/52055583?s=460&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Renato</b></sub>
+ <sub align="center"><b>Renato</b></sub>
 </a>
-
 <a href="https://github.com/brunofariasdeo">
+<br />
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/42921279?s=460&u=ada2f7bbcb378035d9ae5b83c2cd3bc7de0ce373&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>José Bruno</b></sub>
+ <sub align="center"><b>José Bruno</b></sub>
 </a>
 </div>
