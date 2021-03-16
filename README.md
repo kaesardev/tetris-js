@@ -62,30 +62,11 @@ Nosso agradecimento especial vai para o Prof. Dr. [Vinicius Cardoso Garcia](http
 
 ---
 
-<span align="center">
-<span style="display: flex; flex: 1; flex-direction: row; justify-content: space-between;">
-<a href="https://github.com/KaesarZ">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/35826588?s=460&u=1088d3ef2ce85238b647f51a1366a553b47846f7&v=4" width="100px;" alt="Júlio César"/>
-</a>
-
-<a href="https://github.com/joaomarkis">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44407300?s=460&u=65567ccfa9903107c4a6fb441989ecd3da224374&v=4" width="100px;" alt="João Marques"/>
-</a>
-
-<a href="https://github.com/bihellzin">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49006461?s=460&u=64e9102106d36ba82b93113e5612a9a8996dbd3a&v=4" width="100px;" alt="Gabriel"/>
-</a>
-
-<a href="https://github.com/guilhermeguerrac">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45825846?s=460&u=e633ecf1f6bb591eb01726b4642a74fe4ed6b1a3&v=4" width="100px;" alt="Guilherme"/>
-</a>
-
-<a href="https://github.com/renabouj">
- <img align="top" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/52055583?s=460&v=4" width="100px;" alt="Renato"/>
-</a>
-
-<a href="https://github.com/brunofariasdeo">
- <img align="top" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/42921279?s=460&u=ada2f7bbcb378035d9ae5b83c2cd3bc7de0ce373&v=4" width="100px;" alt="José Bruno"/>
-</a>
-</span>
-</span>
+| Membros                                                                   |
+| ------------------------------------------------------------------------- |
+| [Júlio César de Carvalho Barros](https://github.com/kaesarz) (jccb2)      |
+| [João Victor Marques dos Santos](https://github.com/joaomarkis) (jvms)    |
+| [José Bruno Farias de Oliveira](https://github.com/brunofariasdeo) (jpfo) |
+| [Gabriel de Oliveira Ferreira](https://github.com/bihellzin) (gof2)       |
+| [Guilherme Guerra Campos](https://github.com/guilhermeguerrac) (ggc3)     |
+| [Renato Gabriel Ferreira](https://github.com/renabouj) (rgf)              |
