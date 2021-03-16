@@ -13,20 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonMute = document.querySelector("#btn-mute");
   const h1Title = document.querySelector("#title");
 
-  const path = window.location.pathname;
-  var sndBackground = new Audio(path + "audio/background.mp3");
+  var sndBackground = new Audio("../audio/background.mp3");
   sndBackground.volume = 0.1;
   sndBackground.loop = true;
 
-  var sndScore = new Audio(path + "audio/score.mp3");
+  var sndScore = new Audio("../audio/score.mp3");
   sndScore.volume = 0.8;
   sndScore.loop = false;
 
-  var sndMove = new Audio(path + "audio/move.wav");
+  var sndMove = new Audio("../audio/move.wav");
   sndMove.volume = 0.2;
   sndMove.loop = false;
 
-  var sndGameOver = new Audio(path + "audio/gameover.wav");
+  var sndGameOver = new Audio("../audio/gameover.wav");
   sndGameOver.volume = 0.5;
   sndGameOver.loop = false;
 
@@ -292,6 +291,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     // Clear score
     score = 0;
+    level = 1;
     scoreboard.innerHTML = score;
     h1Title.innerHTML = "Tetris";
     // Start new Game
@@ -370,33 +370,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   buttonMute.addEventListener("click", () => {
-    if (sndBackground.volume == 0.1) {
+    if (sndBackground.volume !== 0) {
       sndBackground.pause();
       sndBackground.volume = 0;
+      sndGameOver.volume = 0;
+      sndMove.volume = 0;
+      sndScore.volume = 0;
+      buttonMute.innerHTML = "Unmute";
     } else {
       sndBackground.play();
       sndBackground.volume = 0.1;
-    }
-
-    if (sndScore.volume == 0.8) {
-      sndScore.pause();
-      sndScore.volume = 0;
-    } else {
-      sndScore.volume = 0.8;
-    }
-
-    if (sndMove.volume == 0.2) {
-      sndMove.pause();
-      sndMove.volume = 0;
-    } else {
-      sndMove.volume = 0.2;
-    }
-
-    if (sndGameOver.volume == 0.5) {
-      sndGameOver.pause();
-      sndGameOver.volume = 0;
-    } else {
       sndGameOver.volume = 0.5;
+      sndMove.volume = 0.2;
+      sndScore.volume = 0.8;
+      buttonMute.innerHTML = "Mute";
     }
   });
 });

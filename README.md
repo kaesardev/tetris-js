@@ -25,6 +25,7 @@ Tetris-js é uma implementação do clássico jogo Tetris utilizando html, css e
 - [Sobre](#sobre)
 - [Instalação](#instalação)
 - [Como usar](#como-usar)
+- [Conteúdo de Terceiros](#conteúdo-de-terceiros)
 - [Agradecimento](#agradecimento)
 - [Equipe](#equipe)
   <!--te-->
@@ -51,6 +52,14 @@ O projeto trata-se de uma aplicação web, não requer instalação, e está hos
 ---
 
 Para iniciar o jogo utilize o botão play, e utilizando as setas direcionais (teclado ou botões na tela) mover os blocos e/ou rotaciona-las de modo a completar fileiras na horizontal para que os blocos sejam destruidos e ganhar pontos. A cada segundo que passa os blocos vão caindo, e conforme empilha as peças o jogador fica sem espaço até que não seja possível mais empilhar e o jogo termine. A cada cem pontos o jogador aumenta de nível, ficando mais rápido e mais desafiador!
+
+## Conteúdo de Terceiros
+
+---
+
+Sound Effects: [MixKit](https://mixkit.co/license/) e [MyInstants](https://www.myinstants.com/terms_of_use.html)
+
+Background Music: [Bit Rush - League of Legends](https://soundcloud.com/leagueoflegends/bit-rush)
 
 ## Agradecimento
 
