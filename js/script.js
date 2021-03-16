@@ -259,9 +259,11 @@ document.addEventListener("DOMContentLoaded", () => {
           squares[index].classList.remove("tetromino");
           squares[index].style.background = "";
         });
+        undraw();
         const removedSquares = squares.splice(i, width);
         squares = removedSquares.concat(squares);
         squares.forEach((cell) => grid.appendChild(cell));
+        draw();
       }
     }
   }
