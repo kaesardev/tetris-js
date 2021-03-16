@@ -17,7 +17,6 @@ Tetris-js é uma implementação do clássico jogo Tetris utilizando html, css e
 
 ## Sumário
 
----
 
 <!--ts-->
 
@@ -32,13 +31,10 @@ Tetris-js é uma implementação do clássico jogo Tetris utilizando html, css e
 
 ## Sobre
 
----
 
 Este projeto de caráter acadêmico nasceu de um Hackenge realizado pela disciplina de [Engenharia de Software](https://github.com/IF977/if977) oferecida pelo CIn-UFPE. Cujo intuito foi aprender programação em par e javascript criando um jogo de tetris, o desenvolvimento foi guiado pelo tutorial criado por [kubowania](https://github.com/kubowania) e disponível através do [FreeCodeCamp](https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game/).
 
 ## Instalação
-
----
 
 O projeto trata-se de uma aplicação web, não requer instalação, e está hospedado através do serviço de hospedagem do Github Pages. Para jogar acesse o link:
 
@@ -46,13 +42,11 @@ O projeto trata-se de uma aplicação web, não requer instalação, e está hos
 
 ## Como usar
 
----
 
 Para iniciar o jogo utilize o botão play, e utilizando as setas direcionais (teclado ou botões na tela) mover os blocos e/ou rotaciona-las de modo a completar fileiras na horizontal para que os blocos sejam destruidos e ganhar pontos. A cada segundo que passa os blocos vão caindo, e conforme empilha as peças o jogador fica sem espaço até que não seja possível mais empilhar e o jogo termine. A cada cem pontos o jogador aumenta de nível, ficando mais rápido e mais desafiador!
 
 ## Conteúdo de Terceiros
 
----
 
 Sound Effects: [MixKit](https://mixkit.co/license/) e [MyInstants](https://www.myinstants.com/terms_of_use.html)
 
@@ -60,13 +54,11 @@ Background Music: [Bit Rush - League of Legends](https://soundcloud.com/leagueof
 
 ## Agradecimento
 
----
 
 Nosso agradecimento especial vai para o Prof. Dr. [Vinicius Cardoso Garcia](https://github.com/vinicius3w) por fomentar a aprendizagem de programação em par através desse desafio prático.
 
 ## Equipe
 
----
 
 | Membros                                                                   |
 | ------------------------------------------------------------------------- |
