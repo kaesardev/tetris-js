@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function resumeGame() {
     sndBackground.play();
-    timerId = setInterval(moveDown, Math.max(1, 1000 / level));
+    timerId = setInterval(moveDown, Math.max(1, 1000 - 100 * level));
     h1Title.innerHTML = "Tetris";
   }
 
