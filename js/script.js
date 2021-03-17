@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonLeft = document.querySelector("#btn-left");
   const buttonRight = document.querySelector("#btn-right");
   const buttonMute = document.querySelector("#btn-mute");
+  const buttonAbout = document.querySelector("#btn-about");
   const h1Title = document.querySelector("#title");
 
   const path = window.location.pathname;
@@ -271,6 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Game functions
   function pauseGame() {
     if (timerId) {
+      h1Title.innerHTML = "Game Paused!";
       sndBackground.pause();
       clearInterval(timerId);
       timerId = null;
@@ -280,6 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function resumeGame() {
     sndBackground.play();
     timerId = setInterval(moveDown, Math.max(1, 1000 / level));
+    h1Title.innerHTML = "Tetris";
   }
 
   function playGame() {
@@ -335,12 +338,12 @@ document.addEventListener("DOMContentLoaded", () => {
       resumeGame();
       buttonPause.innerHTML = "Pause";
     }
-    buttonReset.removeAttribute("hidden");
   });
 
   buttonReset.addEventListener("click", () => {
     // Pause game
     playGame();
+    buttonAbout.style.width = "40px";
     buttonReset.style.width = "40px";
     buttonReset.innerHTML = "Reset";
     buttonPause.innerHTML = "Pause";
@@ -388,5 +391,13 @@ document.addEventListener("DOMContentLoaded", () => {
       sndScore.volume = 0.8;
       buttonMute.innerHTML = "Mute";
     }
+  });
+
+  buttonAbout.addEventListener("click", () => {
+    if (timerId) {
+      pauseGame();
+      buttonPause.innerHTML = "Resume";
+    }
+    window.open("https://github.com/KaesarZ/tetris-js", "_blank");
   });
 });
