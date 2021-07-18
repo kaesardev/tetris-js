@@ -1,10 +1,10 @@
 <h1 align="center">Tetris-js</h1>
 
 <p align="center">
-<img src="https://img.shields.io/github/last-commit/KaesarZ/tetris-js?style=plastic" />
-<img src="https://img.shields.io/github/repo-size/KaesarZ/tetris-js" />
-<img src="https://img.shields.io/github/stars/KaesarZ/tetris-js?style=plastic" />
-<img src="https://img.shields.io/github/watchers/KaesarZ/tetris-js?style=plastic" />
+<img src="https://img.shields.io/github/last-commit/kaesardev/tetris-js?style=plastic" />
+<img src="https://img.shields.io/github/repo-size/kaesardev/tetris-js" />
+<img src="https://img.shields.io/github/stars/kaesardev/tetris-js?style=plastic" />
+<img src="https://img.shields.io/github/watchers/kaesardev/tetris-js?style=plastic" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@ Tetris-js é uma implementação do clássico jogo Tetris utilizando html, css e
 </p>
 
 <p align="center">
-<img src="https://github.com/KaesarZ/tetris-js/raw/main/preview.PNG" width="480px" height="480px" />
+<img src="https://github.com/kaesardev/tetris-js/raw/main/preview.PNG" width="480px" height="480px" />
 </p>
 
 ---
@@ -42,7 +42,7 @@ Este projeto de caráter acadêmico nasceu de um Hackenge realizado pela discipl
 
 O projeto trata-se de uma aplicação web, não requer instalação, e está hospedado através do serviço de hospedagem do Github Pages. Para jogar acesse o link:
 
-<h2 align="center"><a href="https://kaesarz.github.io/tetris-js/">Jogar</a></h2>
+<h2 align="center"><a href="https://kaesardev.github.io/tetris-js/">Jogar</a></h2>
 
 ---
 
@@ -71,7 +71,7 @@ Nosso agradecimento especial vai para o Prof. Dr. [Vinicius Cardoso Garcia](http
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/kaesarz"><img src="https://avatars.githubusercontent.com/u/35826588?s=460&u=1088d3ef2ce85238b647f51a1366a553b47846f7&v=4" width="100px;" alt="Júlio Barros"/><br /><sub><b>Júlio Barros</b></sub></a><br /><a href="https://github.com/kaesarz"title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kaesardev"><img src="https://avatars.githubusercontent.com/u/35826588?s=460&u=1088d3ef2ce85238b647f51a1366a553b47846f7&v=4" width="100px;" alt="Júlio Barros"/><br /><sub><b>Júlio Barros</b></sub></a><br /><a href="https://github.com/kaesardev"title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/joaomarkis"><img src="https://avatars.githubusercontent.com/u/44407300?s=460&u=65567ccfa9903107c4a6fb441989ecd3da224374&v=4" width="100px;" alt="João Marques"/><br /><sub><b>João Marques</b></sub></a><br /><a href="https://github.com/joaomarkis"title="Code">💻</a></td>
      <td align="center"><a href="https://github.com/brunofariasdeo"><img src="https://avatars.githubusercontent.com/u/42921279?s=460&u=ada2f7bbcb378035d9ae5b83c2cd3bc7de0ce373&v=4" width="100px;" alt="José Bruno"/><br /><sub><b>José Bruno</b></sub></a><br /><a href="https://github.com/brunofariasdeo"title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/bihellzin"><img src="https://avatars.githubusercontent.com/u/49006461?s=460&u=64e9102106d36ba82b93113e5612a9a8996dbd3a&v=4" width="100px;" alt="Gabriel Ferreira"/><br /><sub><b>Gabriel Ferreira</b></sub></a><br /><a href="https://github.com/bihellzin"title="Design">🎨</a></td>
